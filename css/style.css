@@ -136,10 +136,10 @@ body{
     /* overflow-y: hidden; */
 }
 
-/* .welcome .text-container h1,
+.welcome .text-container h1,
 .welcome .text-container p {
-	margin-bottom: 3rem;   
-} */
+	margin-bottom: 2rem;   
+}
 
 
 .text-container {
