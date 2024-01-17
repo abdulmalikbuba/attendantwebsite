@@ -136,19 +136,18 @@ body{
     /* overflow-y: hidden; */
 }
 
-.welcome .text-container h1,
+/* .welcome .text-container h1,
 .welcome .text-container p {
-	margin-bottom: 3rem;
-    
-}
+	margin-bottom: 3rem;   
+} */
 
 
-/* .text-container {
+.text-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 80%;
-} */
+}
 
 .btn-solid-lg {
 	display: inline-block;
