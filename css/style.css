@@ -13,8 +13,8 @@ body{
 }
 
 :root {
-    --primary: #4294E3;
-    --secondary: #8F12FD;
+    --primary: #025E96;
+    --secondary: #00c9db;
     --light: #F0F6FF;
     --dark: #262B47;
 }
@@ -81,6 +81,7 @@ body{
     padding: initial !important;
 }
 
+
 @media (max-width: 767.98px) {
     /* .navbar-custom{
         background-color: #025E96 !important;
@@ -131,7 +132,7 @@ body{
 .welcome-image img{
     height: 100vh;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
     /* overflow: hidden; */
     /* overflow-y: hidden; */
 }
@@ -238,6 +239,12 @@ body{
 }
 .features .heading{
     text-align: left;
+}
+
+.features .image img{
+    height: 500px;
+    width: 100%;
+    object-fit: contain;
 }
 
 @media (max-width: 767.98px) {
@@ -621,9 +628,9 @@ button:active {
     transition:0.5s;
 }
 
-/* .footer .row a:hover{
-    color:#fff;
-} */
+.footer .row a:hover{
+    color:#000;
+}
 
 .footer .row ul{
     width:100%;
