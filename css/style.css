@@ -301,6 +301,12 @@ body{
     .features{
         padding: 45px 20px;
     }
+    .features .head{
+        max-width: 90%;
+    }
+    .feature-frame{
+        display: none;
+    }
     .features .image{
         display: none;
     }
@@ -314,6 +320,12 @@ body{
     .features{
         padding: 45px 20px;
     }
+    .feature-frame{
+        display: none;
+    }
+    .features .head{
+        max-width: 90%;
+    }
     .features .image{
         display: none;
     }
@@ -326,6 +338,12 @@ body{
 @media (max-width: 991.98px) {
     .features{
         padding: 45px 20px;
+    }
+    .feature-frame{
+        display: none;
+    }
+    .features .head{
+        max-width: 90%;
     }
     .features .image{
         display: none;
