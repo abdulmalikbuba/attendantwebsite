@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/62b99f436d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/lib/animate/animate.min.css">
+    <link rel="stylesheet" href="css/lib/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/lib/owlcarousel/assets/owl.carousel.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+    <!-- top bar -->
+
+    <!-- top bar ends -->
+
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg navbar-custom navbar-custom1 fixed-top">
+      <div class="container">
+        <a class="navbar-brand text-white" title="Employee Performance Management App" href="index.html">Employee Performance Management</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi text-white fs-1 bi-list"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#howItWorks">How It Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="project-circumstance.html">Project Circumstance</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- header ends -->
+
+    <!-- body -->
+    <div class="project-circumstance">
+        <div class="container py-5">
+            <h5>Project Circumstance</h5>
+        </div>
+    </div>
+    <!-- body ends -->
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <ul>
+                    <li><a href="#"><i class="bi fs-5 bi-facebook"></i></a></li>
+                    <li><a href="#"><i class="bi fs-5 bi-instagram"></i></a></li>
+                    <li><a href="#"><i class="bi fs-5 bi-twitter-x"></i></a></li>
+                </ul>
+            </div>
+        
+            <div class="row">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">How it Works</a></li>
+                    <!-- <li><a href="#">Terms & Conditions</a></li> -->
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        
+            <div class="row text-center">
+                <p class="text-center"> ATTENDANT APP Copyright © 2024 Attendant App - All rights reserved || Lucid North Technology</p> 
+            </div>
+        </div>
+    </footer>
+    <!-- footer ends -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/62b99f436d.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="css/lib/easing/easing.min.js"></script>
+    <script src="css/lib/wow/wow.min.js"></script>
+    <script src="css/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="css/lib/owlcarousel/owl.carousel.js"></script>
+    <script src="css/lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="css/lib/lightbox/js/lightbox.min.js"></script>
+    <script src="css/lib/waypoints/waypoints.min.js"></script>
+    <script src="css/lib/counterup/counterup.min.js"></script>
+    <script src="css/lib/slick/slick.min.js"></script>
+    <!-- <script>
+        (function ($) {
+            "use strict";
+            
+            // Initiate the wowjs
+            new WOW().init();
+            feather.replace();
+            // Screenshot carousel
+            $(".screenshot-carousel").owlCarousel({
+                autoplay: true,
+                smartSpeed: 1000,
+                loop: true,
+                dots: true,
+                items: 1
+            });
+
+            $('.vendor-carousel').owlCarousel({
+                loop: true,
+                margin: 45,
+                dots: false,
+                loop: true,
+                autoplay: true,
+                smartSpeed: 1000,
+                responsive: {
+                    0:{
+                        items:2
+                    },
+                    576:{
+                        items:4
+                    },
+                    768:{
+                        items:6
+                    },
+                    992:{
+                        items:6
+                    }
+                }
+            });
+
+            // Back to top button
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 200) {
+                    $('.back-to-top').fadeIn('slow');
+                } else {
+                    $('.back-to-top').fadeOut('slow');
+                }
+            });
+            $('.back-to-top').click(function () {
+                $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
+                return false;
+            });
+
+            window.addEventListener('scroll', function() {
+            var navbar = document.querySelector('.navbar');
+            var heroSection = document.querySelector('.welcome');
+
+            if ($(".navbar").offset().top > 30) {
+                navbar.style.backgroundColor = '#025E96';
+                navbar.style.boxShadow = '0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1)';
+                } else {
+                    navbar.style.backgroundColor = 'transparent';
+                    navbar.style.boxShadow = 'none';
+                }
+            });
+
+            // jQuery to collapse the navbar on scroll
+            // $(window).on('scroll load', function() {
+            // 	if ($(".navbar").offset().top > 20) {
+            // 		$(".fixed-top").addClass("top-nav-collapse");
+            // 	} else {
+            // 		$(".fixed-top").removeClass("top-nav-collapse");
+            // 	}
+            // });
+
+            /* Rotating Text - Morphtext */
+            $("#js-rotating").Morphext({
+                // The [in] animation type. Refer to Animate.css for a list of available animations.
+                animation: "fadeIn",
+                // An array of phrases to rotate are created based on this separator. Change it if you wish to separate the phrases differently (e.g. So Simple | Very Doge | Much Wow | Such Cool).
+                separator: ",",
+                // The delay between the changing of each phrase in milliseconds.
+                speed: 2000,
+                complete: function () {
+                    // Called after the entrance animation is executed.
+                }
+            });
+
+            // const navbar = document.getElementById('navbar');
+            // const scrollTarget = document.getElementById('scroll-target');
+            // const scrollTargetOffset = scrollTarget.offsetTop;
+            // const navbarHeight = navbar.offsetHeight;
+
+            // window.addEventListener('scroll', function() {
+            // if (window.scrollY >= scrollTargetOffset - navbarHeight) {
+            //     document.body.style.paddingTop = navbarHeight + 'px';
+            //     navbar.classList.add('navbar-fixed');
+            // } else {
+            //     document.body.style.paddingTop = 0;
+            //     navbar.classList.remove('navbar-fixed');
+            // }
+            // });
+            
+            
+            // Sticky Navbar
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 70) {
+                    $('.nav-bar').addClass('nav-sticky');
+                    $('.carousel, .page-header').css("margin-top", "73px");
+                } else {
+                    $('.nav-bar').removeClass('nav-sticky');
+                    $('.carousel, .page-header').css("margin-top", "0");
+                }
+            });
+            
+            
+            // Dropdown on mouse hover
+            $(document).ready(function () {
+                function toggleNavbarMethod() {
+                    if ($(window).width() > 992) {
+                        $('.navbar .dropdown').on('mouseover', function () {
+                            $('.dropdown-toggle', this).trigger('click');
+                        }).on('mouseout', function () {
+                            $('.dropdown-toggle', this).trigger('click').blur();
+                        });
+                    } else {
+                        $('.navbar .dropdown').off('mouseover').off('mouseout');
+                    }
+                }
+                toggleNavbarMethod();
+                $(window).resize(toggleNavbarMethod);
+            });
+            
+            
+            // jQuery counterUp
+            $('[data-toggle="counter-up"]').counterUp({
+                delay: 10,
+                time: 2000
+            });
+
+            // Vendor carousel
+            $('.vendor-carousel').owlCarousel({
+                loop: true,
+                margin: 45,
+                dots: false,
+                loop: true,
+                autoplay: true,
+                smartSpeed: 1000,
+                responsive: {
+                    0:{
+                        items:2
+                    },
+                    576:{
+                        items:4
+                    },
+                    768:{
+                        items:6
+                    },
+                    992:{
+                        items:8
+                    }
+                }
+            });
+
+            
+            
+            // Testimonial Slider
+            $('.testimonial-slider').slick({
+                infinite: true,
+                autoplay: true,
+                arrows: false,
+                dots: false,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                asNavFor: '.testimonial-slider-nav'
+            });
+            $('.testimonial-slider-nav').slick({
+                arrows: false,
+                dots: false,
+                focusOnSelect: true,
+                centerMode: true,
+                centerPadding: '22px',
+                slidesToShow: 3,
+                asNavFor: '.testimonial-slider'
+            });
+            $('.testimonial .slider-nav').css({"position": "relative", "height": "160px"});
+            
+            $(document).ready(function(){
+                $('.customer-logos').slick({
+                    slidesToShow: 6,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 1500,
+                    arrows: false,
+                    dots: false,
+                    pauseOnHover: false,
+                    responsive: [{
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 4
+                        }
+                    }, {
+                        breakpoint: 520,
+                        settings: {
+                            slidesToShow: 3
+                        }
+                    }]
+                });
+            });
+            
+            // Blogs carousel
+            $(".related-slider").owlCarousel({
+                autoplay: true,
+                dots: false,
+                loop: true,
+                nav : true,
+                navText : [
+                    '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+                    '<i class="fa fa-angle-right" aria-hidden="true"></i>'
+                ],
+                responsive: {
+                    0:{
+                        items:1
+                    },
+                    576:{
+                        items:1
+                    },
+                    768:{
+                        items:2
+                    }
+                }
+            });
+            
+            
+        })(jQuery);
+    </script> -->
+  </body>
+</html>
