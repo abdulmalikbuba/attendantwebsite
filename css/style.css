@@ -59,7 +59,7 @@ body{
 .navbar-custom .nav-link:after {
     display:block;
     content: '';
-    border-bottom: solid 3px #fff;  
+    border-bottom: solid 2px #fff;  
     transform: scaleX(0);  
     transition: transform 250ms ease-in-out;
     transform-origin: left;
@@ -735,6 +735,18 @@ button:active {
     margin:0% 1%;
 }
 
+/* .footer .sponsors{
+    max-width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+} */
+
+.footer .sponsors .owl-carousel img{
+    height: 70px;
+    width: 100%;
+    object-fit: contain;
+    margin: 0;
+}
 
 @media (max-width: 767.98px) {
     /* footer .container .d-flex{
