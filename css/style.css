@@ -229,6 +229,27 @@ body{
     }
 }
 
+/*******************************/
+/********** Partners ***********/
+/*******************************/
+.partners{
+    width: 100%;
+    padding: 45px 0;
+}
+
+.partners .partner-images{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.partners .partner-images img{
+    height: 80px;
+    width: 100%;
+    object-fit: contain;
+   /* margin: 0px 40px; */
+}
+
 
 /*******************************/
 /********** Features ***********/
