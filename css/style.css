@@ -292,6 +292,18 @@ body{
     height: 470px;
 }
 
+.feature-single{
+    text-align: center;
+    padding: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+.feature-single:hover{
+    transition: all 0.5s ease-in-out;
+    box-shadow: 5px 5px 25px #ccc;
+    border-radius: 10px;
+}
+
 .seemore {
     color: var(--secondary);
     font-size: 14px;
