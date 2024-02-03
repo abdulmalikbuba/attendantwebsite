@@ -244,7 +244,7 @@ body{
 }
 
 .partners .partner-images img{
-    height: 80px;
+    height: auto;
     width: 100%;
     object-fit: contain;
    /* margin: 0px 40px; */
@@ -769,16 +769,14 @@ button:active {
 }
 
 /* .footer .sponsors{
-    max-width: 50%;
-    margin: auto;
-    margin-bottom: 30px;
+    display: flex;
+    gap: 0;
 } */
 
-.footer .sponsors .owl-carousel img{
+.footer .sponsors img{
     height: 70px;
     width: 100%;
     object-fit: contain;
-    margin: 0;
 }
 
 @media (max-width: 767.98px) {
