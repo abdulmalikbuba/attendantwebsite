@@ -79,10 +79,6 @@
     <!-- Footer -->
     <footer>
         <div class="footer wow fadeInUp">
-            <!-- <div class="container sponsors d-flex">
-                <img class="wow zoomIn" src="images/sponsors/PUBLIC-SERVICES-COMMISSION.jpeg" alt="">
-                <img class="wow zoomIn" src="images/sponsors/World_Bank-Logo.png" alt="">
-            </div> -->
             <div class="container sponsors">
                 <div class="row">
                     <div class="col-lg-5 col-md-12 col-sm-12 mx-auto d-flex">
@@ -103,9 +99,10 @@
             </div>
         
             <div class="row text-center">
-                <!-- <p class="text-center">EMPLOYEE PERFORMANCE MANAGEMENT APP Copyright © 2024 - All rights reserved || Lucid North Technology</p>  -->
                 <p class="text-center">EMPLOYEE PERFORMANCE MANAGEMENT APP</p> 
-                <p class="text-center">Copyright © 2024 - All rights reserved</p> 
+                <p class="text-center">Copyright © <span id="year">
+                    <script>document.getElementById('year').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+                </span> - All rights reserved</p> 
                 <p class="text-center">Designed and Developed by Lucid North Technology</p> 
 
             </div>
