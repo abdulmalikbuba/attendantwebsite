@@ -129,7 +129,7 @@ body{
 }
 
 .welcome-image{
-    height: auto;
+    height: 100vh;
 }
 
 .welcome-image img{
